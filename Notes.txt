@@ -1,0 +1,46 @@
+CMD comamds
+	dir
+	"programm name" + --version
+	git clone
+	git status
+	cd
+	cd + .. - takes you folder up
+	mkdir
+	git add . - dot means all
+	git commit -m + "message"
+	cls - clear whole cmd
+	
+Steps of preparation
+	Install git
+		Check instalation git --version
+		
+	Intall node.js
+		Relaunch cmd after installation of node to make sure it catches it.
+		Check instalation
+		node --version
+		npm --version
+		
+	Install browser sync 
+		npm install -g browser-sync
+		
+	Create git repository 
+		clone repo to local machine
+		git clone + url
+		cd command - to get in to specific folder
+		dir command - shows whats in the folder you are in
+	
+	Make directory/folder 
+		mkdir + "nameofdir"
+	
+	Commit
+		git add . - dot means all
+		git status
+		git commit -m + "message"
+		git push 
+	
+	In CMD  write to start browser-sync as a local server, watch local directory and * loads all changes, opens live browser tab, that will show changes.
+		browser-sync start --server --directory --files "*"
+		
+	<
+	
+	
